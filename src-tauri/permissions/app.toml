@@ -1,0 +1,29 @@
+# src-tauri/permissions/app.toml
+identifier = "core:default"
+description = "Default permission set for Whisper OS"
+
+# ---- Core permissions ----
+[[permissions]]
+identifier = "core:app:default"
+description = "Allow basic app operations"
+commands.allow = true
+
+[[permissions]]
+identifier = "core:window:default"
+description = "Allow window creation and control"
+commands.allow = true
+
+[[permissions]]
+identifier = "core:tray:default"
+description = "Allow system-tray access"
+commands.allow = true
+
+[[permissions]]
+identifier = "notification:default"
+description = "Allow desktop notifications"
+commands.allow = true
+
+[[permissions]]
+identifier = "shell:default"
+description = "Allow opening external URLs and processes"
+commands.allow = true
