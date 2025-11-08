@@ -9,15 +9,6 @@
     "frontendDist": "../dist"
   },
   "app": {
-    "withGlobalTauri": true,
-    "windows": [
-      {
-        "label": "main",
-        "title": "Whisper OS",
-        "width": 800,
-        "height": 600,
-        "resizable": true
-      }
-    ]
+    "withGlobalTauri": true
   }
 }
